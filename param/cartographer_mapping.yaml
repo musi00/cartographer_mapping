@@ -1,0 +1,13 @@
+# parameters for avidbots cartographer mapping
+
+# cartographer mapping are based on Google's Cartographer package where the
+# documentations can be found in
+# http://google-cartographer-ros.readthedocs.io/en/latest/index.html#
+
+cartographer_mapping:
+  save_map:
+    occupied_threshold: 0.51 # any value in occupancy grid that's beyond this
+                             # threshold are marked as occupied
+    free_threshold: 0.19     # any value in occupancy grid that's below this 
+                             # threshold are marked as non-occupied
+    output_directory_path: "/home/avidbots/Desktop/yamaha_showroom_dubai" # where to put the generated map to

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>avidbots_cartographer_mapping</name>
+  <version>0.0.0</version>
+  <description>The cartographer_mapping package</description>
+  <maintainer email="yi.ren@avidbots.com">Yi(Arthur) Ren</maintainer>
+  <license>Proprietary</license>
+  <url type="website">http://www.avidbots.com</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslint</build_depend>
+
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+
+  <export>
+  </export>
+</package>
